@@ -3,7 +3,7 @@ from keras.models import load_model
 import numpy as np
 
 app = Flask(__name__)
-model = load_model('model.h5')  # Load the saved Keras model
+model = load_model('LSTM-v1.h5')  # Load the saved Keras model
 
 @app.route('/')
 def home():
